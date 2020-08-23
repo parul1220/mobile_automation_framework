@@ -19,7 +19,7 @@ How to Run
 - This will run all the testcases tagged with @Test.
 
 Framework Details:
-- Followed POM approach
+- Followed POM approach (MobileAutomation/src/test/java/com/project)
 - Reading environment setup related data from properties file and testdata from an JSON file
 - All these files and apk file is stored insdie other_files folder
 - Once the testcase get executed after each test pass or fail screenshot will get generated insdie screenshot folder at the root level
