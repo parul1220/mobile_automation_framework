@@ -137,5 +137,4 @@ public class DriverActions extends BaseDriver{
 	{
 		return elementByIndex(by, index).getText();
 	}
-
 }

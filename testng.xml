@@ -5,7 +5,7 @@
 
   <test name="NativeAppAutomation">
 	<classes>
-				<class name="com.project.test.TestAmazonApp">
+		<class name="com.project.test.TestAmazonApp">
 		</class>
 	</classes>
   </test>
