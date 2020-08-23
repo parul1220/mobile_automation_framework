@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuit]">
+  <test thread-count="5" verbose="0" name="NativeApp(failed)">
+    <classes>
+      <class name="com.project.base.BaseDriver">
+        <methods>
+          <include name="startAppiumServer"/>
+          <include name="stopAppiumServer"/>
+        </methods>
+      </class> <!-- com.project.base.BaseDriver -->
+    </classes>
+  </test> <!-- NativeApp(failed) -->
+</suite> <!-- Failed suite [TestSuit] -->

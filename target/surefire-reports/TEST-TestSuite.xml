@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="4.223" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/PARUL/Desktop/MobileAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/PARUL/Desktop/MobileAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/h0/7l5w5hfs7rxg8cqjjrqsrxs00000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/PARUL/Downloads/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1751441604205294054.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/PARUL/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/PARUL"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="PARUL"/>
+    <property name="java.class.path" value="/Users/manu/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/Users/PARUL/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/PARUL/Desktop/MobileAutomation/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="startAppiumServer" classname="com.project.base.BaseDriver" time="4.223">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Manus-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1851:c67e:3ebc:1c8d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: BaseDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details&#10;    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Manus-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1851:c67e:3ebc:1c8d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: BaseDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Manus-MacBook-Pro.local', ip: 'fe80:0:0:0:1851:c67e:3ebc:1c8d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_161'
+Driver info: driver.version: BaseDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Manus-MacBook-Pro.local', ip: 'fe80:0:0:0:1851:c67e:3ebc:1c8d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_161'
+Driver info: driver.version: BaseDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at com.project.base.BaseDriver.launchApp(BaseDriver.java:68)
+	at com.project.base.BaseDriver.startAppiumServer(BaseDriver.java:43)
+]]></failure>
+    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.18.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
+&amp#27;[35m[Appium]&amp#27;[39m   logFile: /Users/PARUL/Desktop/MobileAutomation/ServerLogs/server.log
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4723
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.1"}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m8 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+class name is com.project.base.BaseDriver
+i have started running server
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","noReset":false,"platformName":"Android","device":"Android","deviceName":"Galaxy M30"},"capabilities":{"firstMatch":[{"appium:app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appium:appActivity":"com.amazon.mShop.home.HomeActivity","appium:appPackage":"com.amazon.mShop.android.shopping","device":"Android","appium:deviceName":"Galaxy M30","appium:noReset":false,"platformName":"android"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","noReset":false,"platformName":"Android","device":"Android","deviceName":"Galaxy M30"},null,{"firstMatch":[{"appium:app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appium:appActivity":"com.amazon.mShop.home.HomeActivity","appium:appPackage":"com.amazon.mShop.android.shopping","device":"Android","appium:deviceName":"Galaxy M30","appium:noReset":false,"platformName":"android"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1597945727671 (23:18:47 GMT+0530 (India Standard Time))
+&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities are not standard capabilities and should have an extension prefix:
+&amp#27;[35m[BaseDriver]&amp#27;[39m   device
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m ======================================================================
+&amp#27;[35m[Appium]&amp#27;[39m   DEPRECATION WARNING:
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   The 'automationName' capability was not provided in the desired 
+&amp#27;[35m[Appium]&amp#27;[39m   capabilities for this Android session
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   Setting 'automationName=UiAutomator2' by default and using the 
+&amp#27;[35m[Appium]&amp#27;[39m   UiAutomator2 Driver
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   The next major version of Appium (2.x) will **require** the 
+&amp#27;[35m[Appium]&amp#27;[39m   'automationName' capability to be set for all sessions on all 
+&amp#27;[35m[Appium]&amp#27;[39m   platforms
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   In previous versions (Appium <= 1.13.x), the default was 
+&amp#27;[35m[Appium]&amp#27;[39m   'automationName=UiAutomator1'
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   If you wish to use that automation instead of UiAutomator2, please 
+&amp#27;[35m[Appium]&amp#27;[39m   add 'automationName=UiAutomator1' to your desired capabilities
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   For more information about drivers, please visit 
+&amp#27;[35m[Appium]&amp#27;[39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+&amp#27;[35m[Appium]&amp#27;[39m   'Drivers' menu
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m ======================================================================
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.18.1 creating new AndroidUiautomator2Driver (v1.56.1) session
+[debug] &amp#27;[35m[Appium]&amp#27;[39m There are no active sessions for cleanup
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:device": "Android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:app": "/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.amazon.mShop.home.HomeActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.amazon.mShop.android.shopping",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Galaxy M30",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:noReset": false
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
+&amp#27;[35m[BaseDriver]&amp#27;[39m   device
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: a8d147a4-4b5b-40fc-96cc-cc517fbf681a
+&amp#27;[35m[BaseDriver]&amp#27;[39m Using local app '/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Checking whether app is actually present
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1597945728021 (23:18:48 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at requireSdkRoot (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Function.createADB (/usr/local/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:66:23)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.createBaseADB (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:107:20)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:191:29)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:310:40)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:221:18)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Destroying socket connection
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m442 ms - 813&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>

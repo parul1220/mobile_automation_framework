@@ -1,0 +1,616 @@
+2020-08-23 13:21:22:444 [Appium] Welcome to Appium v1.18.1
+2020-08-23 13:21:22:446 [Appium] Non-default server args:
+2020-08-23 13:21:22:446 [Appium]   sessionOverride: true
+2020-08-23 13:21:22:446 [Appium]   logFile: /Users/PARUL/Desktop/MobileAutomation/ServerLogs/server.log
+2020-08-23 13:21:22:468 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-08-23 13:21:22:672 [HTTP] --> GET /wd/hub/status
+2020-08-23 13:21:22:672 [HTTP] {}
+2020-08-23 13:21:22:674 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-08-23 13:21:22:675 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.1"}}
+2020-08-23 13:21:22:680 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2020-08-23 13:21:22:680 [HTTP] 
+2020-08-23 13:21:23:238 [HTTP] --> POST /wd/hub/session
+2020-08-23 13:21:23:238 [HTTP] {"desiredCapabilities":{"app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","noReset":true,"platformName":"Android","device":"Android","deviceName":"Galaxy M30"},"capabilities":{"firstMatch":[{"appium:app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appium:appActivity":"com.amazon.mShop.home.HomeActivity","appium:appPackage":"com.amazon.mShop.android.shopping","device":"Android","appium:deviceName":"Galaxy M30","appium:noReset":true,"platformName":"android"}]}}
+2020-08-23 13:21:23:238 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","noReset":true,"platformName":"Android","device":"Android","deviceName":"Galaxy M30"},null,{"firstMatch":[{"appium:app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appium:appActivity":"com.amazon.mShop.home.HomeActivity","appium:appPackage":"com.amazon.mShop.android.shopping","device":"Android","appium:deviceName":"Galaxy M30","appium:noReset":true,"platformName":"android"}]}]
+2020-08-23 13:21:23:239 [BaseDriver] Event 'newSessionRequested' logged at 1598188883239 (18:51:23 GMT+0530 (India Standard Time))
+2020-08-23 13:21:23:242 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-08-23 13:21:23:242 [BaseDriver]   device
+2020-08-23 13:21:23:246 [Appium] 
+2020-08-23 13:21:23:246 [Appium] ======================================================================
+2020-08-23 13:21:23:246 [Appium]   DEPRECATION WARNING:
+2020-08-23 13:21:23:246 [Appium] 
+2020-08-23 13:21:23:246 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-08-23 13:21:23:247 [Appium]   capabilities for this Android session
+2020-08-23 13:21:23:247 [Appium] 
+2020-08-23 13:21:23:247 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-08-23 13:21:23:247 [Appium]   UiAutomator2 Driver
+2020-08-23 13:21:23:247 [Appium] 
+2020-08-23 13:21:23:247 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-08-23 13:21:23:247 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-08-23 13:21:23:247 [Appium]   platforms
+2020-08-23 13:21:23:247 [Appium] 
+2020-08-23 13:21:23:248 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-08-23 13:21:23:248 [Appium]   'automationName=UiAutomator1'
+2020-08-23 13:21:23:248 [Appium] 
+2020-08-23 13:21:23:248 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-08-23 13:21:23:248 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-08-23 13:21:23:248 [Appium] 
+2020-08-23 13:21:23:248 [Appium]   For more information about drivers, please visit 
+2020-08-23 13:21:23:248 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-08-23 13:21:23:248 [Appium]   'Drivers' menu
+2020-08-23 13:21:23:249 [Appium] 
+2020-08-23 13:21:23:249 [Appium] ======================================================================
+2020-08-23 13:21:23:249 [Appium] 
+2020-08-23 13:21:23:544 [Appium] Appium v1.18.1 creating new AndroidUiautomator2Driver (v1.56.1) session
+2020-08-23 13:21:23:545 [Appium] There are no active sessions for cleanup
+2020-08-23 13:21:23:547 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-08-23 13:21:23:548 [BaseDriver] Creating session with W3C capabilities: {
+2020-08-23 13:21:23:548 [BaseDriver]   "alwaysMatch": {
+2020-08-23 13:21:23:548 [BaseDriver]     "appium:device": "Android",
+2020-08-23 13:21:23:548 [BaseDriver]     "platformName": "android",
+2020-08-23 13:21:23:548 [BaseDriver]     "appium:app": "/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk",
+2020-08-23 13:21:23:548 [BaseDriver]     "appium:appActivity": "com.amazon.mShop.home.HomeActivity",
+2020-08-23 13:21:23:548 [BaseDriver]     "appium:appPackage": "com.amazon.mShop.android.shopping",
+2020-08-23 13:21:23:548 [BaseDriver]     "appium:deviceName": "Galaxy M30",
+2020-08-23 13:21:23:549 [BaseDriver]     "appium:noReset": true
+2020-08-23 13:21:23:549 [BaseDriver]   },
+2020-08-23 13:21:23:549 [BaseDriver]   "firstMatch": [
+2020-08-23 13:21:23:549 [BaseDriver]     {}
+2020-08-23 13:21:23:549 [BaseDriver]   ]
+2020-08-23 13:21:23:549 [BaseDriver] }
+2020-08-23 13:21:23:555 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2020-08-23 13:21:23:555 [BaseDriver]   device
+2020-08-23 13:21:23:556 [BaseDriver] Session created with session id: 41bfaf7f-9647-4497-9d41-3e89359f8601
+2020-08-23 13:21:23:558 [BaseDriver] Using local app '/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk'
+2020-08-23 13:21:23:558 [UiAutomator2] Checking whether app is actually present
+2020-08-23 13:21:23:566 [ADB] Found 1 'build-tools' folders under '/Users/PARUL/Library/Android/sdk' (newest first):
+2020-08-23 13:21:23:566 [ADB]     /Users/PARUL/Library/Android/sdk/build-tools/30.0.1
+2020-08-23 13:21:23:566 [ADB] Using 'adb' from '/Users/PARUL/Library/Android/sdk/platform-tools/adb'
+2020-08-23 13:21:23:567 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2020-08-23 13:21:23:578 [AndroidDriver] Retrieving device list
+2020-08-23 13:21:23:578 [ADB] Trying to find a connected android device
+2020-08-23 13:21:23:578 [ADB] Getting connected devices
+2020-08-23 13:21:23:584 [ADB] Connected devices: [{"udid":"3200ab6f495e4607","state":"device"}]
+2020-08-23 13:21:23:585 [AndroidDriver] Using device: 3200ab6f495e4607
+2020-08-23 13:21:23:586 [ADB] Using 'adb' from '/Users/PARUL/Library/Android/sdk/platform-tools/adb'
+2020-08-23 13:21:23:586 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2020-08-23 13:21:23:591 [ADB] Setting device id to 3200ab6f495e4607
+2020-08-23 13:21:23:592 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell getprop ro.build.version.sdk'
+2020-08-23 13:21:23:662 [ADB] Current device property 'ro.build.version.sdk': 29
+2020-08-23 13:21:23:662 [ADB] Getting device platform version
+2020-08-23 13:21:23:663 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell getprop ro.build.version.release'
+2020-08-23 13:21:23:707 [ADB] Current device property 'ro.build.version.release': 10
+2020-08-23 13:21:23:707 [ADB] Device API level: 29
+2020-08-23 13:21:23:707 [UiAutomator2] Relaxing hidden api policy
+2020-08-23 13:21:23:708 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2020-08-23 13:21:23:924 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 wait-for-device'
+2020-08-23 13:21:23:932 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell echo ping'
+2020-08-23 13:21:23:957 [AndroidDriver] Pushing settings apk to device...
+2020-08-23 13:21:23:959 [ADB] Getting install status for io.appium.settings
+2020-08-23 13:21:23:959 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package io.appium.settings'
+2020-08-23 13:21:24:039 [ADB] 'io.appium.settings' is installed
+2020-08-23 13:21:24:040 [ADB] Getting package info for 'io.appium.settings'
+2020-08-23 13:21:24:040 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package io.appium.settings'
+2020-08-23 13:21:24:155 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.0' >= '3.2.0')
+2020-08-23 13:21:24:155 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2020-08-23 13:21:24:156 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-08-23 13:21:24:157 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell 'pgrep --help; echo $?''
+2020-08-23 13:21:24:235 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell pgrep -f io\\.appium\\.settings'
+2020-08-23 13:21:24:363 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-08-23 13:21:24:364 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell appops set io.appium.settings android\:mock_location allow'
+2020-08-23 13:21:24:442 [Logcat] Starting logs capture with command: /Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 logcat -v threadtime
+2020-08-23 13:21:24:497 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2020-08-23 13:21:24:497 [ADB] Forwarding system: 8200 to device: 6790
+2020-08-23 13:21:24:498 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 forward tcp\:8200 tcp\:6790'
+2020-08-23 13:21:24:518 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-08-23 13:21:24:521 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package io.appium.uiautomator2.server'
+2020-08-23 13:21:24:604 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-08-23 13:21:24:604 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-08-23 13:21:24:605 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package io.appium.uiautomator2.server'
+2020-08-23 13:21:24:689 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.12.2' >= '4.12.2')
+2020-08-23 13:21:24:690 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-08-23 13:21:24:698 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.12.2.apk
+2020-08-23 13:21:24:743 [ADB] Using 'apksigner.jar' from '/Users/PARUL/Library/Android/sdk/build-tools/30.0.1/lib/apksigner.jar'
+2020-08-23 13:21:24:763 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/PARUL/Library/Android/sdk/build-tools/30.0.1/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.12.2.apk
+2020-08-23 13:21:25:628 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-08-23 13:21:25:628 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-08-23 13:21:25:628 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-08-23 13:21:25:628 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-08-23 13:21:25:628 [ADB] 
+2020-08-23 13:21:25:628 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.12.2.apk' is signed with the default certificate
+2020-08-23 13:21:25:628 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-08-23 13:21:25:629 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-08-23 13:21:25:687 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-08-23 13:21:25:687 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2020-08-23 13:21:25:688 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/PARUL/Library/Android/sdk/build-tools/30.0.1/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2020-08-23 13:21:25:988 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-08-23 13:21:25:988 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-08-23 13:21:25:988 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-08-23 13:21:25:988 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-08-23 13:21:25:988 [ADB] 
+2020-08-23 13:21:25:988 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2020-08-23 13:21:25:988 [UiAutomator2] Server packages are not going to be (re)installed
+2020-08-23 13:21:25:991 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-08-23 13:21:25:991 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell pm list instrumentation'
+2020-08-23 13:21:26:096 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-08-23 13:21:26:097 [ADB] Checking app cert for /Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk
+2020-08-23 13:21:26:097 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/PARUL/Library/Android/sdk/build-tools/30.0.1/lib/apksigner.jar verify --print-certs /Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk
+2020-08-23 13:21:27:306 [ADB] apksigner stdout: Signer #1 certificate DN: CN=Amazon Services LLC, OU="Java Object Signing O=Amazon Services LLC L=Las Vegas", ST="Nevada C=US"
+2020-08-23 13:21:27:306 [ADB] Signer #1 certificate SHA-256 digest: 2f19adeb284eb36f7f07786152b9a1d14b21653203ad0b04ebbf9c73ab6d7625
+2020-08-23 13:21:27:306 [ADB] Signer #1 certificate SHA-1 digest: a183524c3c8f8153aad02c0a346aef505fd397ea
+2020-08-23 13:21:27:307 [ADB] Signer #1 certificate MD5 digest: 97e83c003bded24445aefd4c72dc4b85
+2020-08-23 13:21:27:307 [ADB] 
+2020-08-23 13:21:27:307 [ADB] '/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk' is signed with a non-default certificate
+2020-08-23 13:21:27:307 [ADB] Getting install status for com.amazon.mShop.android.shopping
+2020-08-23 13:21:27:307 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package com.amazon.mShop.android.shopping'
+2020-08-23 13:21:27:421 [ADB] 'com.amazon.mShop.android.shopping' is installed
+2020-08-23 13:21:27:422 [ADB] Getting package info for 'com.amazon.mShop.android.shopping'
+2020-08-23 13:21:27:422 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys package com.amazon.mShop.android.shopping'
+2020-08-23 13:21:27:533 [ADB] The version name of the installed 'com.amazon.mShop.android.shopping' is greater or equal to the application version name ('18.14.0' >= '18.14.0')
+2020-08-23 13:21:27:533 [ADB] There is no need to install/upgrade '/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk'
+2020-08-23 13:21:27:534 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-08-23 13:21:27:546 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2020-08-23 13:21:27:547 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell am force-stop io.appium.uiautomator2.server.test'
+2020-08-23 13:21:27:648 [UiAutomator2] Starting UIAutomator2 server 4.12.2
+2020-08-23 13:21:27:649 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.12.2.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2020-08-23 13:21:27:649 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-08-23 13:21:27:650 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","3200ab6f495e4607","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-08-23 13:21:28:658 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 13:21:28:660 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 13:21:28:672 [WD Proxy] socket hang up
+2020-08-23 13:21:29:675 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 13:21:29:675 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 13:21:29:685 [WD Proxy] socket hang up
+2020-08-23 13:21:30:065 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-08-23 13:21:30:692 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 13:21:30:692 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 13:21:30:704 [WD Proxy] socket hang up
+2020-08-23 13:21:31:710 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 13:21:31:711 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 13:21:31:889 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2020-08-23 13:21:31:891 [UiAutomator2] The initialization of the instrumentation process took 4241ms
+2020-08-23 13:21:31:892 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-08-23 13:21:31:892 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","device":"Android","app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","deviceName":"Galaxy M30","noReset":true},"platformName":"android","device":"Android","app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","deviceName":"3200ab6f495e4607","noReset":true,"deviceUDID":"3200ab6f495e4607"}],"alwaysMatch":{}}}
+2020-08-23 13:21:31:921 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","device":"Android","app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","deviceName":"Galaxy M30","noReset":true},"platformName":"android","device":"Android","app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","deviceName":"3200ab6f495e4607","noReset":true,"deviceUDID":"3200ab6f495e4607"}],"alwaysMatch":{}},"sessionId":"088ee918-21e6-427a-b658-608477137dbc"}}
+2020-08-23 13:21:31:922 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-08-23 13:21:31:932 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/appium/device/info] with no body
+2020-08-23 13:21:31:982 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"androidId":"1a55f7757ee9e469","apiVersion":"29","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"Idea - Be Safe | Vodafone IN","displayDensity":420,"locale":"en_GB","manufacturer":"samsung","model":"SM-M305F","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCap...
+2020-08-23 13:21:31:983 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell dumpsys window'
+2020-08-23 13:21:32:110 [AndroidDriver] Screen already unlocked, doing nothing
+2020-08-23 13:21:32:111 [UiAutomator2] Starting 'com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity and waiting for 'com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity'
+2020-08-23 13:21:32:112 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell am start -W -n com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-08-23 13:21:33:898 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/appium/device/pixel_ratio] with no body
+2020-08-23 13:21:34:631 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":2.625}
+2020-08-23 13:21:34:633 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-08-23 13:21:34:633 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/appium/device/system_bars] with no body
+2020-08-23 13:21:34:644 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"statusBar":78}}
+2020-08-23 13:21:34:645 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-08-23 13:21:34:645 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/window/current/size] with no body
+2020-08-23 13:21:34:669 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"height":2218,"width":1080}}
+2020-08-23 13:21:34:670 [Appium] New AndroidUiautomator2Driver session created successfully, session 41bfaf7f-9647-4497-9d41-3e89359f8601 added to master session list
+2020-08-23 13:21:34:671 [BaseDriver] Event 'newSessionStarted' logged at 1598188894671 (18:51:34 GMT+0530 (India Standard Time))
+2020-08-23 13:21:34:678 [W3C (41bfaf7f)] Cached the protocol value 'W3C' for the new session 41bfaf7f-9647-4497-9d41-3e89359f8601
+2020-08-23 13:21:34:678 [W3C (41bfaf7f)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","device":"Android","app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","deviceName":"Galaxy M30","noReset":true},"platformName":"android","device":"Android","app":"/Users/PARUL/Desktop/MobileAutomation/other_files/Amazon_shopping.apk","appActivity":"com.amazon.mShop.home.HomeActivity","appPackage":"com.amazon.mShop.android.shopping","deviceName":"3200ab6f495e4607","noReset":true,"deviceUDID":"3200ab6f495e4607","deviceApiLevel":29,"platformVersion":"10","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"SM-M305F","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":78,"viewportRect":{"left":0,"top":78,"width...
+2020-08-23 13:21:34:680 [HTTP] <-- POST /wd/hub/session 200 11442 ms - 1105
+2020-08-23 13:21:34:680 [HTTP] 
+2020-08-23 13:21:34:820 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:34:821 [HTTP] {"using":"id","value":"com.amazon.mShop.android.shopping:id/sign_in_button"}
+2020-08-23 13:21:34:824 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["id","com.amazon.mShop.android.shopping:id/sign_in_button","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:34:825 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:34:825 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:34:826 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:34:826 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"id","selector":"com.amazon.mShop.android.shopping:id/sign_in_button","context":"","multiple":false}
+2020-08-23 13:21:36:198 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"ELEMENT":"37995980-c0b5-4c74-92a9-5251a738fbea","element-6066-11e4-a52e-4f735466cecf":"37995980-c0b5-4c74-92a9-5251a738fbea"}}
+2020-08-23 13:21:36:199 [W3C (41bfaf7f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"37995980-c0b5-4c74-92a9-5251a738fbea","ELEMENT":"37995980-c0b5-4c74-92a9-5251a738fbea"}
+2020-08-23 13:21:36:200 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 200 1379 ms - 137
+2020-08-23 13:21:36:200 [HTTP] 
+2020-08-23 13:21:36:212 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:36:213 [HTTP] {"using":"id","value":"com.amazon.mShop.android.shopping:id/sign_in_button"}
+2020-08-23 13:21:36:213 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["id","com.amazon.mShop.android.shopping:id/sign_in_button","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:36:214 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:36:214 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:36:214 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:36:214 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"id","selector":"com.amazon.mShop.android.shopping:id/sign_in_button","context":"","multiple":false}
+2020-08-23 13:21:36:296 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"ELEMENT":"47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973","element-6066-11e4-a52e-4f735466cecf":"47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973"}}
+2020-08-23 13:21:36:297 [W3C (41bfaf7f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973","ELEMENT":"47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973"}
+2020-08-23 13:21:36:298 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 200 85 ms - 137
+2020-08-23 13:21:36:298 [HTTP] 
+2020-08-23 13:21:36:303 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element/47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973/click
+2020-08-23 13:21:36:304 [HTTP] {"id":"47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973"}
+2020-08-23 13:21:36:305 [W3C (41bfaf7f)] Calling AppiumDriver.click() with args: ["47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:36:305 [WD Proxy] Matched '/element/47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973/click' to command name 'click'
+2020-08-23 13:21:36:306 [WD Proxy] Proxying [POST /element/47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973/click] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element/47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973/click] with body: {"element":"47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973"}
+2020-08-23 13:21:37:226 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":null}
+2020-08-23 13:21:37:227 [W3C (41bfaf7f)] Responding to client with driver.click() result: null
+2020-08-23 13:21:37:228 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element/47bddaf3-32d8-4f6b-9d9e-36b2fb0a6973/click 200 924 ms - 14
+2020-08-23 13:21:37:228 [HTTP] 
+2020-08-23 13:21:37:233 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:37:234 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_email_login']"}
+2020-08-23 13:21:37:234 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_email_login']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:37:235 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:37:235 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:37:236 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:37:236 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_email_login']","context":"","multiple":false}
+2020-08-23 13:21:37:617 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:37:618 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:37:625 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:37:625 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:37:625 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:37:627 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 393 ms - 454
+2020-08-23 13:21:37:627 [HTTP] 
+2020-08-23 13:21:38:153 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:38:153 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_email_login']"}
+2020-08-23 13:21:38:154 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_email_login']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:38:154 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:38:154 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:38:154 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:38:157 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_email_login']","context":"","multiple":false}
+2020-08-23 13:21:40:001 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"ELEMENT":"d8934f5e-f145-4452-9c0e-7398c421d48a","element-6066-11e4-a52e-4f735466cecf":"d8934f5e-f145-4452-9c0e-7398c421d48a"}}
+2020-08-23 13:21:40:002 [W3C (41bfaf7f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d8934f5e-f145-4452-9c0e-7398c421d48a","ELEMENT":"d8934f5e-f145-4452-9c0e-7398c421d48a"}
+2020-08-23 13:21:40:003 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 200 1850 ms - 137
+2020-08-23 13:21:40:004 [HTTP] 
+2020-08-23 13:21:40:009 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:40:009 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_email_login']"}
+2020-08-23 13:21:40:010 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_email_login']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:40:010 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:40:010 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:40:014 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:40:014 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_email_login']","context":"","multiple":false}
+2020-08-23 13:21:40:346 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"ELEMENT":"980c662a-a33e-4d24-8e32-18642651c59c","element-6066-11e4-a52e-4f735466cecf":"980c662a-a33e-4d24-8e32-18642651c59c"}}
+2020-08-23 13:21:40:347 [W3C (41bfaf7f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"980c662a-a33e-4d24-8e32-18642651c59c","ELEMENT":"980c662a-a33e-4d24-8e32-18642651c59c"}
+2020-08-23 13:21:40:348 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 200 339 ms - 137
+2020-08-23 13:21:40:348 [HTTP] 
+2020-08-23 13:21:40:357 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element/980c662a-a33e-4d24-8e32-18642651c59c/value
+2020-08-23 13:21:40:357 [HTTP] {"id":"980c662a-a33e-4d24-8e32-18642651c59c","text":"","value":[]}
+2020-08-23 13:21:40:358 [W3C (41bfaf7f)] Calling AppiumDriver.setValue() with args: [[],"980c662a-a33e-4d24-8e32-18642651c59c","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:40:360 [WD Proxy] Matched '/element/980c662a-a33e-4d24-8e32-18642651c59c/value' to command name 'setValue'
+2020-08-23 13:21:40:360 [Protocol Converter] Added 'value' property [] to 'setValue' request body
+2020-08-23 13:21:40:361 [WD Proxy] Proxying [POST /element/980c662a-a33e-4d24-8e32-18642651c59c/value] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element/980c662a-a33e-4d24-8e32-18642651c59c/value] with body: {"elementId":"980c662a-a33e-4d24-8e32-18642651c59c","text":"","replace":false,"value":[]}
+2020-08-23 13:21:40:391 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":null}
+2020-08-23 13:21:40:391 [W3C (41bfaf7f)] Responding to client with driver.setValue() result: null
+2020-08-23 13:21:40:392 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element/980c662a-a33e-4d24-8e32-18642651c59c/value 200 35 ms - 14
+2020-08-23 13:21:40:393 [HTTP] 
+2020-08-23 13:21:40:401 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:40:401 [HTTP] {"using":"class name","value":"android.widget.Button"}
+2020-08-23 13:21:40:401 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["class name","android.widget.Button","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:40:402 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:40:402 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:40:403 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:40:403 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"class name","selector":"android.widget.Button","context":"","multiple":false}
+2020-08-23 13:21:40:436 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"ELEMENT":"f107aca6-c159-468f-aaac-eb018812210b","element-6066-11e4-a52e-4f735466cecf":"f107aca6-c159-468f-aaac-eb018812210b"}}
+2020-08-23 13:21:40:436 [W3C (41bfaf7f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f107aca6-c159-468f-aaac-eb018812210b","ELEMENT":"f107aca6-c159-468f-aaac-eb018812210b"}
+2020-08-23 13:21:40:437 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 200 36 ms - 137
+2020-08-23 13:21:40:437 [HTTP] 
+2020-08-23 13:21:40:442 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:40:442 [HTTP] {"using":"class name","value":"android.widget.Button"}
+2020-08-23 13:21:40:443 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["class name","android.widget.Button","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:40:444 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:40:444 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:40:445 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:40:445 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"class name","selector":"android.widget.Button","context":"","multiple":false}
+2020-08-23 13:21:40:476 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"ELEMENT":"92215e97-8f4d-482a-99cf-a0c260d10430","element-6066-11e4-a52e-4f735466cecf":"92215e97-8f4d-482a-99cf-a0c260d10430"}}
+2020-08-23 13:21:40:478 [W3C (41bfaf7f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"92215e97-8f4d-482a-99cf-a0c260d10430","ELEMENT":"92215e97-8f4d-482a-99cf-a0c260d10430"}
+2020-08-23 13:21:40:479 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 200 37 ms - 137
+2020-08-23 13:21:40:479 [HTTP] 
+2020-08-23 13:21:40:485 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element/92215e97-8f4d-482a-99cf-a0c260d10430/click
+2020-08-23 13:21:40:485 [HTTP] {"id":"92215e97-8f4d-482a-99cf-a0c260d10430"}
+2020-08-23 13:21:40:486 [W3C (41bfaf7f)] Calling AppiumDriver.click() with args: ["92215e97-8f4d-482a-99cf-a0c260d10430","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:40:486 [WD Proxy] Matched '/element/92215e97-8f4d-482a-99cf-a0c260d10430/click' to command name 'click'
+2020-08-23 13:21:40:487 [WD Proxy] Proxying [POST /element/92215e97-8f4d-482a-99cf-a0c260d10430/click] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element/92215e97-8f4d-482a-99cf-a0c260d10430/click] with body: {"element":"92215e97-8f4d-482a-99cf-a0c260d10430"}
+2020-08-23 13:21:41:636 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":null}
+2020-08-23 13:21:41:637 [W3C (41bfaf7f)] Responding to client with driver.click() result: null
+2020-08-23 13:21:41:639 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element/92215e97-8f4d-482a-99cf-a0c260d10430/click 200 1152 ms - 14
+2020-08-23 13:21:41:639 [HTTP] 
+2020-08-23 13:21:48:643 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:48:644 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:48:644 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:48:645 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:48:645 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:48:645 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:48:645 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:49:236 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:49:237 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:49:238 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:49:238 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:49:238 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:49:239 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 596 ms - 454
+2020-08-23 13:21:49:239 [HTTP] 
+2020-08-23 13:21:49:748 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:49:748 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:49:749 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:49:749 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:49:749 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:49:750 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:49:750 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:50:333 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:50:333 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:50:334 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:50:334 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:50:334 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:50:335 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 587 ms - 454
+2020-08-23 13:21:50:335 [HTTP] 
+2020-08-23 13:21:50:843 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:50:844 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:50:844 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:50:844 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:50:845 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:50:845 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:50:845 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:51:474 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:51:474 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:51:475 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:51:475 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:51:476 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:51:476 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 633 ms - 454
+2020-08-23 13:21:51:477 [HTTP] 
+2020-08-23 13:21:51:987 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:51:987 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:51:988 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:51:988 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:51:989 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:51:989 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:51:989 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:52:582 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:52:582 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:52:583 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:52:583 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:52:584 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:52:584 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 597 ms - 454
+2020-08-23 13:21:52:585 [HTTP] 
+2020-08-23 13:21:53:096 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:53:096 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:53:097 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:53:097 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:53:098 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:53:098 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:53:099 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:53:653 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:53:654 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:53:655 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:53:655 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:53:655 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:53:656 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 560 ms - 454
+2020-08-23 13:21:53:656 [HTTP] 
+2020-08-23 13:21:54:166 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:54:166 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:54:167 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:54:167 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:54:167 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:54:168 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:54:168 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:54:921 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:54:923 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:54:924 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:54:924 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:54:924 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:54:925 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 759 ms - 454
+2020-08-23 13:21:54:925 [HTTP] 
+2020-08-23 13:21:55:436 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:55:436 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:55:436 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:55:437 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:55:437 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:55:437 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:55:438 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:56:036 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:56:037 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:56:038 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:56:038 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:56:038 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:56:039 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 603 ms - 454
+2020-08-23 13:21:56:039 [HTTP] 
+2020-08-23 13:21:56:550 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:56:550 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:56:551 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:56:551 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:56:551 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:56:552 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:56:552 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:57:311 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:57:311 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:57:312 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:57:313 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:57:313 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:57:314 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 764 ms - 454
+2020-08-23 13:21:57:314 [HTTP] 
+2020-08-23 13:21:57:824 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:57:824 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:57:825 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:57:825 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:57:825 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:57:826 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:57:826 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:58:352 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:58:352 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:58:353 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:58:353 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:58:353 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:58:354 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 530 ms - 454
+2020-08-23 13:21:58:354 [HTTP] 
+2020-08-23 13:21:58:863 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:58:863 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:58:864 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:58:864 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:58:864 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:58:865 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:58:865 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:21:59:327 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:21:59:328 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:21:59:329 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:21:59:329 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:21:59:329 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:21:59:330 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 467 ms - 454
+2020-08-23 13:21:59:330 [HTTP] 
+2020-08-23 13:21:59:843 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:21:59:843 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:21:59:843 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:21:59:844 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:21:59:844 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:21:59:844 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:21:59:844 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:00:289 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:00:290 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:00:291 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:00:291 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:00:291 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:00:292 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 449 ms - 454
+2020-08-23 13:22:00:292 [HTTP] 
+2020-08-23 13:22:00:801 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:00:801 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:00:802 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:00:802 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:00:802 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:00:803 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:00:803 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:01:271 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:01:271 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:01:272 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:01:272 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:01:272 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:01:273 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 472 ms - 454
+2020-08-23 13:22:01:273 [HTTP] 
+2020-08-23 13:22:01:783 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:01:783 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:01:784 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:01:784 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:01:784 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:01:785 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:01:785 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:02:321 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:02:321 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:02:322 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:02:322 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:02:322 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:02:323 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 540 ms - 454
+2020-08-23 13:22:02:323 [HTTP] 
+2020-08-23 13:22:02:832 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:02:833 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:02:833 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:02:833 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:02:834 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:02:834 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:02:834 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:03:393 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:03:394 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:03:395 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:03:395 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:03:396 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:03:397 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 564 ms - 454
+2020-08-23 13:22:03:397 [HTTP] 
+2020-08-23 13:22:03:904 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:03:904 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:03:905 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:03:905 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:03:905 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:03:905 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:03:906 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:04:421 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:04:421 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:04:422 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:04:422 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:04:422 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:04:423 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 519 ms - 454
+2020-08-23 13:22:04:423 [HTTP] 
+2020-08-23 13:22:04:933 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:04:933 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:04:933 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:04:934 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:04:934 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:04:934 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:04:935 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:05:472 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:05:473 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:05:473 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:05:474 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:05:474 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:05:474 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 542 ms - 454
+2020-08-23 13:22:05:475 [HTTP] 
+2020-08-23 13:22:05:985 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:05:986 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:05:986 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:05:986 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:05:986 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:05:987 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:05:987 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:06:440 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:06:440 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:06:441 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:06:441 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:06:441 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:06:442 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 456 ms - 454
+2020-08-23 13:22:06:442 [HTTP] 
+2020-08-23 13:22:06:952 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:06:952 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:06:955 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:06:956 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:06:956 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:06:957 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:06:957 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:07:372 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:07:372 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:07:373 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:07:373 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:07:373 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:07:374 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 422 ms - 454
+2020-08-23 13:22:07:374 [HTTP] 
+2020-08-23 13:22:07:884 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:07:884 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:07:885 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:07:885 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:07:885 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:07:886 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:07:886 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:08:864 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:08:864 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:08:865 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:08:865 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:08:865 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:08:866 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 982 ms - 454
+2020-08-23 13:22:08:866 [HTTP] 
+2020-08-23 13:22:08:873 [HTTP] --> POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element
+2020-08-23 13:22:08:873 [HTTP] {"using":"xpath","value":"//android.widget.EditText[@resource-id='ap_password']"}
+2020-08-23 13:22:08:873 [W3C (41bfaf7f)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@resource-id='ap_password']","41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:08:874 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-08-23 13:22:08:874 [BaseDriver] Waiting up to 0 ms for condition
+2020-08-23 13:22:08:874 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-08-23 13:22:08:874 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@resource-id='ap_password']","context":"","multiple":false}
+2020-08-23 13:22:09:108 [WD Proxy] Got response with status 404: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:96)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:71)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2020-08-23 13:22:09:108 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-08-23 13:22:09:108 [W3C (41bfaf7f)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-08-23 13:22:09:109 [W3C (41bfaf7f)]     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2020-08-23 13:22:09:109 [W3C (41bfaf7f)]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-08-23 13:22:09:109 [HTTP] <-- POST /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/element 404 236 ms - 454
+2020-08-23 13:22:09:109 [HTTP] 
+2020-08-23 13:22:09:116 [HTTP] --> GET /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/screenshot
+2020-08-23 13:22:09:116 [HTTP] {}
+2020-08-23 13:22:09:118 [W3C (41bfaf7f)] Calling AppiumDriver.getScreenshot() with args: ["41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:09:119 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2020-08-23 13:22:09:119 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc/screenshot] with no body
+2020-08-23 13:22:09:968 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15XBNn/gfwTyDcQUFEoigeQQWtgFaxgvawXemt1V172NWfrdWqdbtV\nqz3t9th2PbtbW3vaqr3Wbj1abQW0Wq2gVRQiCIJEOQS5QUg4QpL5/cFmliEBAoIQ/bxfL1+P38lk\nZpIhkPnO83wfGQABRERERERERER2zKGrD4CIiIiIiIiI6GoxwUFEREREREREdo8JDiIiIiIiIiKy\ne0xwEBEREREREZHdY4KDiIiIiIiIiOweExxEREREREREZPeY4CAiIiIiIiIiu8cEBxERERERERHZ\nPSY4iIiIiIiIiMjuMcFBRERERERERHaPCQ4iIiIiIiIisntMcBARERERERGR3WOCg4iIiIiIiIjs\nHhMcRERERERERGT3mOAgIiIiIiIiIrvHBAcRERERERER2T0mOIiIiIiIiIjI7jHBQURERERERER2\njwkOIiIiIiIiIrJ7THAQERERERERkd1jgoOIiIiIiIiI7B4THERERERERERk9+RdfQBERN2dm5sb\nnJyc4ODggLq6OtTU1HT1IRERERERURNMcJDdk8lk8PLywqBBg+Dn5wcPDw8AQHV1NQoLC5GVlYXy\n8nIIgtDFR3pjuJ7Oh5ubGwIDA+Hr64uQkBA4OjoiMTERpaWlyMjIQG1trV28DiIie6JQKKDVarv9\nNtsqNDTU6vLCwkIUFBRc46Mha6KioqBWq3k+6Jro378/3N3dm328uroaly5duoZHdH1ggoPskkwm\ng6enJ8aMGYM//OEPGDlyJJydnSGXy+Hg0DDyymQywWAwQK/X49y5c9i/fz8SEhJQWVnJi9IOdj2e\nD09PT4wePRp33HEHAgMD4efn...
+2020-08-23 13:22:09:971 [W3C (41bfaf7f)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15XBNn/gfwTyDcQUFEoigeQQWtgFaxgvawXemt1V172NWfrdWqdbtV\nqz3t9th2PbtbW3vaqr3Wbj1abQW0Wq2gVRQiCIJEOQS5QUg4QpL5/cFmliEBAoIQ/bxfL1+P38lk\nZpIhkPnO83wfGQABRERERERERER2zKGrD4CIiIiIiIiI6GoxwUFEREREREREdo8JDiIiIiIiIiKy\ne0xwEBEREREREZHdY4KDiIiIiIiIiOweExxEREREREREZPeY4CAiIiIiIiIiu8cEBxERERERERHZ\nPSY4iIiIiIiIiMjuMcFBRERERERERHaPCQ4iIiIiIiIisntMcBARERERERGR3WOCg4iIiIiIiIjs\nHhMcRERERERERGT3mOAgIiIiIiIiIrvHBAcRERERERER2T0mOIiIiIiIiIjI7jHBQURERERERER2\njwkOIiIiIiIiIrJ7THAQERERERERkd1jgoOIiIiIiIiI7B4THERERERERERk9+RdfQBERN2dm5sb\nnJyc4ODggLq6OtTU1HT1IRERERERURNMcJDdk8lk8PLywqBBg+Dn5wcPDw8AQHV1NQoLC5GVlYXy\n8nIIgtDFR3pjuJ7Oh5ubGwIDA+Hr64uQkBA4OjoiMTERpaWlyMjIQG1trV28DiIie6JQKKDVarv9\nNtsqNDTU6vLCwkIUFBRc46Mha6KioqBWq3k+6Jro378/3N3dm328uroaly5duoZHdH1ggoPskkwm\ng6enJ8aMGYM//OEPGDlyJJydnSGXy+Hg0DDyymQywWAwQK/X49y5c9i/fz8SEhJQWVnJi9IOdj2e\nD09PT4wePRp33HEHAgMD4efnBwAYPXo0MjMzcejQISQlJeHKlStdfKRERNcPlUqFDRs2YNOmTYiJ\niemQbU...
+2020-08-23 13:22:09:974 [HTTP] <-- GET /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601/screenshot 200 857 ms - 244030
+2020-08-23 13:22:09:975 [HTTP] 
+2020-08-23 13:22:10:023 [HTTP] --> DELETE /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601
+2020-08-23 13:22:10:023 [HTTP] {}
+2020-08-23 13:22:10:023 [W3C (41bfaf7f)] Calling AppiumDriver.deleteSession() with args: ["41bfaf7f-9647-4497-9d41-3e89359f8601"]
+2020-08-23 13:22:10:024 [BaseDriver] Event 'quitSessionRequested' logged at 1598188930023 (18:52:10 GMT+0530 (India Standard Time))
+2020-08-23 13:22:10:024 [Appium] Removing session 41bfaf7f-9647-4497-9d41-3e89359f8601 from our master session list
+2020-08-23 13:22:10:025 [UiAutomator2] Deleting UiAutomator2 session
+2020-08-23 13:22:10:026 [UiAutomator2] Deleting UiAutomator2 server session
+2020-08-23 13:22:10:026 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-08-23 13:22:10:026 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/088ee918-21e6-427a-b658-608477137dbc] with no body
+2020-08-23 13:22:10:047 [WD Proxy] Got response with status 200: {"sessionId":"088ee918-21e6-427a-b658-608477137dbc","value":null}
+2020-08-23 13:22:10:047 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell am force-stop com.amazon.mShop.android.shopping'
+2020-08-23 13:22:10:254 [Logcat] Stopping logcat capture
+2020-08-23 13:22:10:257 [ADB] Removing forwarded port socket connection: 8200 
+2020-08-23 13:22:10:257 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 forward --remove tcp\:8200'
+2020-08-23 13:22:10:265 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2020-08-23 13:22:10:266 [ADB] Running '/Users/PARUL/Library/Android/sdk/platform-tools/adb -P 5037 -s 3200ab6f495e4607 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2020-08-23 13:22:10:558 [BaseDriver] Event 'quitSessionFinished' logged at 1598188930557 (18:52:10 GMT+0530 (India Standard Time))
+2020-08-23 13:22:10:559 [W3C (41bfaf7f)] Received response: null
+2020-08-23 13:22:10:559 [W3C (41bfaf7f)] But deleting session, so not returning
+2020-08-23 13:22:10:559 [W3C (41bfaf7f)] Responding to client with driver.deleteSession() result: null
+2020-08-23 13:22:10:560 [W3C (41bfaf7f)] Destroying socket connection
+2020-08-23 13:22:10:561 [HTTP] <-- DELETE /wd/hub/session/41bfaf7f-9647-4497-9d41-3e89359f8601 200 537 ms - 14
+2020-08-23 13:22:10:561 [HTTP] 
+2020-08-23 13:22:10:563 [Appium] Received SIGTERM - shutting down
